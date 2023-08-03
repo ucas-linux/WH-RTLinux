@@ -5,7 +5,10 @@
 - 获得更多试用版本，请访问[https://www.onewos.com/resource-center/iso](https://www.onewos.com/resource-center/iso)
 - 若您想业务咨询，请通过邮箱与我们联系：[wanghuo@ucas.com.cn]([wanghuo@ucas.com.cn)
 
-## 2. 版本说明
+## 2. 目录说明
+- source/平台/:对应平台的开源代码或配置
+
+## 3. 版本说明
 - realtime-linux：基于不同平台的硬实时系统版本
 - 下载：[https://www.onewos.com/resource-center/iso/free](https://www.onewos.com/resource-center/iso/free)
 - 文档：realtime-linux/平台/doc/
@@ -18,7 +21,7 @@
 - 镜像：fastboot-linux/平台/images/
 - 工具: fastboot-linux/平台/tools/
 
-## 3. 支持镜像
+## 4. 支持镜像
 已发布镜像：
 - 瑞芯微
 
@@ -28,7 +31,7 @@
 - 英特尔
 - ...
 
-## 4. 性能测试
+## 5. 性能测试
 - 实时性测试
   - 执行命令：
     1. 加压：'hackbench -l10000000 &'
@@ -38,7 +41,7 @@
 - 快速启动测试
   - 结果：系统启动后，串口打印本次实时启动时间
 
-## 5. 参考资源
+## 6. 参考资源
 瑞芯微TB-RK3588官方说明文档：[https://t.rock-chips.com/wiki/CN/tb-rk3588x/index.html](https://t.rock-chips.com/wiki/CN/tb-rk3588x/index.html)
 
 ---
@@ -49,7 +52,10 @@
 - To obtain more trial versions, please visit [https://www.onewos.com/resource-center/iso](https://www.onewos.com/resource-center/iso).
 - If you have any business inquiries, please contact us via email at [wanghuo@ucas.com.cn](wanghuo@ucas.com.cn).
 
-## 2. Version Description
+## 2. Directory Description
+- source/platform/:source code or configuration for the platform
+
+## 3. Version Description
 - realtime-linux：Versions of Hard Real-time Systems based on Different Platforms
 - Download：[https://www.onewos.com/resource-center/iso/free](https://www.onewos.com/resource-center/iso/free)
 - Documentation：realtime-linux/platform/doc/
@@ -62,7 +68,7 @@
 - Images：fastboot-linux/platform/images/
 - Tools: fastboot-linux/platform/tools/
 
-## 3. Support Images
+## 4. Support Images
 Released Images:
 - Rockchip
 
@@ -72,7 +78,7 @@ Planned Release Images:
 - Intel
 - ...
 
-## 4. Performance Testing
+## 5. Performance Testing
 - Real-time Performance Testing
     - Command：
       1. tress：'hackbench -l10000000 &'
@@ -82,5 +88,5 @@ Planned Release Images:
 - Fast Boot Testing
     - Result:After system boot, print the real-time boot time on the serial port.
 
-## 5. Reference Resources
+## 6. Reference Resources
 Rockchip TB-RK3588's wiki：[https://t.rock-chips.com/wiki/CN/tb-rk3588x/index.html](https://t.rock-chips.com/wiki/CN/tb-rk3588x/index.html)
